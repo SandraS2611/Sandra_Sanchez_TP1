@@ -1,0 +1,1 @@
+print("\033[7;37;47m"+"NO TIENE SOLUCIÓN"+'\033[0;m') 
