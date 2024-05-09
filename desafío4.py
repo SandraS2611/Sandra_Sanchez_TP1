@@ -1,5 +1,5 @@
-semana = ["lunes", "martes", "miercoles", "jueves", "viernes"]
-fin_de_semana = ["sabado", "domingo"]
+semana = ("lunes", "martes", "miercoles", "jueves", "viernes")
+fin_de_semana = ("sabado", "domingo")
 
 dia = input("Ingrese un día de la semana: ").lower()
 

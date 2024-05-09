@@ -1,6 +1,4 @@
 candidatos = input("Ingrese el nombre del Candidato: ").upper()
-partidoRojo = "A"
-partidoVerde = "B"
 
 if candidatos == "A":
  print("Usted a votado al candidato del Partido Rojo.")

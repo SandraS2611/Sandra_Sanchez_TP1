@@ -1,5 +1,9 @@
-frase = input("Ingrese una frase: ").upper()
-vocales = ["a", "e", "i", "o","u"]
+frase = [input("Ingrese una frase: ").upper()]
+vocales = "aeiou"
 
-if vocales in frase:
-    print(len(vocales))
+for i in frase:
+    if i in vocales:
+        suma = suma + vocales
+        print(suma)
+
+

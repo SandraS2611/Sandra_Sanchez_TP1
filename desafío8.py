@@ -1,7 +1,7 @@
 letra = input("Ingrese una letra: ").lower()
-vocales = "a", "e", "i", "o","u"
+vocales = "aeiou"
 
-if letra == "a" or letra == "e" or letra == "i" or letra == "o" or letra == "u":
+if letra in vocales:
     print("Es una vocal")
 else:
     print("No se puede procesar el dato.")
